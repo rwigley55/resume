@@ -3,6 +3,16 @@
   max-width: 95% !important;
 } */
 
+a, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
 * {
     color: #F5F3F4;
     font-family: 'Dosis', sans-serif;
@@ -203,7 +213,7 @@
   
   .resume-separator {
     color: #F5F3F4;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   
   .resume-title {
@@ -212,12 +222,13 @@
   }
   
   .resume-link {
-    font-size: 0.4rem;
+    font-size: 0.35rem;
     color: #F5F3F4 !important;
     text-decoration: none;
   }
   
   .box-link {
+    font-size: 0.4rem;
     color: #6b6b6b !important;
     transition: color 0.5s ease-out !important;
   }
@@ -237,3 +248,5 @@
     border-color: white !important;
     transition: border-color 0.5s ease !important;
   }
+
+  /* Below is PDF modifications */
